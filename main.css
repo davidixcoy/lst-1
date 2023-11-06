@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+body{
+    /* background-image: url(https://res.cloudinary.com/dvghu0k44/image/upload/v1697747784/1fd011666b357b3293f80bee57d8cee7_xwvfha.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:scroll;
+    */
+    background: #ee0979;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ff6a00, #ee0979); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+}
+p{
+    font-family:'Dancing Script', cursive;
+    font-size: 20px;
+    padding: 40px;
+    margin: 50px;
+}
+
+.carousel{
+  
+  margin: 10px ;
+ 
+  
+}
+.carousel-inner{
+    max-height: 500px;
+  
+
+    
+      
+}
+
+.carousel-item img {
+    height: 500px;
+    object-fit: contain;
+
+  }
